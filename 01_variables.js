@@ -11,4 +11,12 @@ const account_Id=128946
 let account_email="ayush@gmail.com"
 var account_passoword="123455jfvj"
 
+// account_Id=2 Assignment to constant variable. this is not allowed
+
+account_email="kumar@gmail.com"
+account_password="hcbhbc243"
+account_city="Bengaluru";
+
 console.log(account_Id);
+
+console.table([account_email, account_password, account_city])
